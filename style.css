@@ -24,7 +24,7 @@ header img{
     position: absolute;  
 }
 header nav{
-    margin-left: 20vw;
+    margin-left: 16vw;
     padding-top: 4%;
 }
 header a{
@@ -142,11 +142,13 @@ footer {
         height: 12vw;
     }
     #menu-res{
-       display: inline-flex;
        margin-top: 2%;
        right: 5vw;
        width: 7vw;
        height: 7vw;
+    }
+    section{
+        margin-top: 6%;
     }
 }
     @media screen and (max-width:650px){
@@ -172,6 +174,9 @@ footer {
     header{
         height: 17vw;
        }
+       section{
+           margin-top: 8%;
+       }
     #menu-res{
         display: inline-flex;
         margin-top: 2%;
@@ -180,4 +185,20 @@ footer {
         height: 10vw;
      }
      
+    }
+    @media screen and (max-width:350px){
+        header{
+            height: 22vw;
+        }
+        header img{
+            width: 22vw;
+            height: 22vw;
+        }
+        #menu-res{
+            margin-top: 2%;
+            right: 5vw;
+            width: 15vw;
+            height: 15vw;
+            margin-top: 4%;
+         }
     }
