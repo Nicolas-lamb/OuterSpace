@@ -1,13 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/ubuntu-mono-2');
 @import url('https://fonts.cdnfonts.com/css/neon-street');
-@import url('https://fonts.cdnfonts.com/css/zero-prime');
-
-                
+@import url('https://fonts.cdnfonts.com/css/zero-prime');             
 body{
     background-color: rgb(150, 150, 150);
     font-family: 'Ubuntu Mono', sans-serif;
-    background-image: url(espaco1.jpg);                                         
-                                                
+    background-image: url(espaco1.jpg);                                                                                         
 }
 header{
     background-color: rgb(0, 0, 0);
@@ -162,8 +159,7 @@ footer {
         .sobre-nos{
             margin-left: 3%;
             width: 95%;
-        }
-        
+        }   
     }
 
 @media screen and (max-width: 500px){
@@ -184,7 +180,6 @@ footer {
         width: 10vw;
         height: 10vw;
      }
-     
     }
     @media screen and (max-width:350px){
         header{
