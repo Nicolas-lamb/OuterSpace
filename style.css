@@ -1,0 +1,158 @@
+body{
+    background-color: rgb(150, 150, 150);
+    font-family: Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 9vw;
+    border-radius: 0.7vw;
+    position: relative;
+}
+
+header img{
+    width: 9vw;
+    height: 9vw;
+    margin-left: 6vw;
+    position: absolute;  
+}
+header nav{
+    margin-left: 20vw;
+    padding-top: 4%;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    font-size: 19px;
+    margin-left: 7vw;
+    border: 10px solid rgb(53, 53, 53);
+    border-style: hidden;
+}
+header a:hover{
+    background-color: rgb(53, 53, 53);
+    border-style: solid;
+    border-radius: .5vw;
+    font-size: 23px;
+}
+#menu-res{
+    display: none;
+}
+hr {
+    margin-right: 10%;
+    margin-left: 10%;
+    border:.5px dashed white;
+}
+.img-menu{
+    width: 13vw;
+    height: 13vw;
+    margin-top: 2%;
+    display: inline-block;
+    margin-left: 2%;
+    border-radius: 2vw;
+   
+}
+section{
+    width: 60%;
+    margin-left: 17.5%;
+    margin-top: 4%;
+    padding: 2%;
+    border-bottom: solid white;
+    border-right: solid white;
+    border-top: solid black;
+    border-left: solid black;
+    border-radius: 4vw;
+    background-color: rgb(92, 92, 92);
+    text-align: center;
+}
+section h2{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: -1%;
+}
+section p{
+    font-size: 22px;
+    margin-left: 6%;
+    margin-right: 5%;
+    color: white;
+    text-align: start;
+}
+footer h3{
+    font-size: 25px;
+}
+footer {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 30px;
+    margin-left: -0.6%;
+    width: 101.2%;
+    background-color: rgb(107, 107, 107);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.sobre-nos{
+    margin-left: 25%;
+    width: 50%;
+}
+.contato{
+    margin-left: 25%;
+    margin-top: 3%;
+    width: 50%;
+}
+
+@media  screen and (max-width: 1000px){
+   nav{
+       display: none;
+   }
+   #menu-res{
+       display: inline-flex;
+       margin-top: 2%;
+       right: 5vw;
+       width: 5vw;
+       height: 5vw;
+   }
+   section{
+    width: 85%;
+    margin-left: 5.5%;
+   }
+    .img-menu{
+        width: 14vw;
+        height: 14vw;
+}
+}
+
+@media screen and (max-width: 800px){
+    header img{
+        width: 12vw;
+        height: 12vw;
+    }
+    header{
+        height: 12vw;
+    }
+    #menu-res{
+       display: inline-flex;
+       margin-top: 2%;
+       right: 5vw;
+       width: 8vw;
+       height: 8vw;
+    }
+}
+
+@media screen and (max-width: 500px){
+    header img{
+        width: 15vw;
+        height: 15vw;
+    }
+    header{
+        height: 15vw;
+       }
+    #menu-res{
+        display: inline-flex;
+        margin-top: 2%;
+        right: 5vw;
+        width: 11vw;
+        height: 11vw;
+     }
+    }
