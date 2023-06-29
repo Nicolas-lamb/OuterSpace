@@ -1,10 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/ubuntu-mono-2');
 @import url('https://fonts.cdnfonts.com/css/neon-street');
+@import url('https://fonts.cdnfonts.com/css/zero-prime');
+
                 
 body{
     background-color: rgb(150, 150, 150);
     font-family: 'Ubuntu Mono', sans-serif;
-                                                
+    background-image: url(espaco1.jpg);                                         
                                                 
 }
 header{
@@ -75,7 +77,7 @@ section h2{
     color: white;
     text-align: center;
     margin-top: 0%;
-    font-family: 'Neon Street', sans-serif;
+    font-family: 'Zero Prime', sans-serif;
     letter-spacing: 4px;                                         
 }
 section p{
@@ -148,10 +150,18 @@ footer {
     }
 }
     @media screen and (max-width:650px){
+        section h2{
+            margin-top: 3%;
+            font-size: 26px;
+        }
+        section p{
+            font-size: 20px;
+        }
         .sobre-nos{
             margin-left: 3%;
             width: 95%;
         }
+        
     }
 
 @media screen and (max-width: 500px){
