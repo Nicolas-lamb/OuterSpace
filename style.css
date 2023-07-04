@@ -61,10 +61,10 @@ section{
     margin-left: 17.5%;
     margin-top: 4%;
     padding: 2%;
-    border-bottom: solid white;
-    border-right: solid white;
-    border-top: solid black;
-    border-left: solid black;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
     border-radius: 4vw;
     background-color: rgb(92, 92, 92);
     text-align: center;
@@ -109,7 +109,7 @@ footer {
     width: 50%;
 }
 
-@media  screen and (max-width: 1000px){
+@media  screen and (max-width: 900px){
    nav{
        display: none;
    }
@@ -149,6 +149,12 @@ footer {
     }
 }
     @media screen and (max-width:650px){
+        section{
+            border-bottom: 5px solid white;
+            border-right: 5px solid white;
+            border-top: 5px solid black;
+            border-left: 5px solid black;
+        }
         section h2{
             margin-top: 3%;
             font-size: 26px;
@@ -175,7 +181,7 @@ footer {
        }
     #menu-res{
         display: inline-flex;
-        margin-top: 2%;
+        margin-top: 3.5%;
         right: 5vw;
         width: 10vw;
         height: 10vw;
